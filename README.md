@@ -1,5 +1,5 @@
 # The Shop
-A democase for gaining application insights with Grafana, Prometheus and K6
+A democase for gaining application insights from a Spring Boot App using: Grafana, Prometheus and K6
 
 ## Getting Started
 Start the docker containers:
@@ -32,3 +32,14 @@ To run the tests, execute the following command:
 ```bash
 k6 run loadtests/loadtest.js
 ```
+
+# Further reading
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html)
+- [Prometheus](https://prometheus.io/docs/introduction/overview/)
+- [Grafana](https://grafana.com/docs/grafana/latest/getting-started/getting-started-prometheus/)
+- [Grafana Dashboards](https://grafana.com/grafana/dashboards)
+- [K6](https://k6.io/docs/)
+- [OpenAPI](https://swagger.io/docs/specification/about/)
+- [Docker](https://docs.docker.com/get-started/)
+- [Docker Compose](https://docs.docker.com/compose/)
