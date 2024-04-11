@@ -16,3 +16,7 @@ Start the backend with gradle:
 OpenAPI specification is available at `http://localhost:8080/api/v1/docs`
 
 Prometheus Metrics are exposed via actuator at `http://localhost:8080/actuator/prometheus`
+
+Prometheus can be reached at `http://localhost:9090`, target status can be seen at `http://localhost:9090/targets`
+
+Grafana can be reached at `http://localhost:3000` with the default credentials `admin` and `secret`
