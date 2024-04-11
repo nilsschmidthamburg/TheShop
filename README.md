@@ -27,8 +27,8 @@ machine.
 
 This can be done by running `brew install k6` on MacOS. For other operating systems, please refer to the official K6 documentation.
 
-To run the tests, execute the following command in the `load-test` folder:
+To run the tests, execute the following command:
 
 ```bash
-k6 run load-test.js
+k6 run loadtests/loadtest.js
 ```

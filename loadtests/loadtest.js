@@ -11,8 +11,8 @@ const params = {
 
 export let options = {
     stages: [
-        {duration: "10s", target: 1000},
-        {duration: "50s", target: 1000},
+        {duration: "60s", target: 1000},
+        {duration: "30s", target: 1000},
         {duration: "10s", target: 0},
     ],
     thresholds: {
