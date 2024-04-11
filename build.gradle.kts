@@ -26,6 +26,12 @@ dependencies {
     implementation("org.flywaydb:flyway-core")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0")
+
+    // Spring Boot Actuator for monitoring and metrics
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
+    // Micrometer Prometheus registry
+    implementation("io.micrometer:micrometer-registry-prometheus")
+
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     developmentOnly("org.springframework.boot:spring-boot-docker-compose")
     runtimeOnly("org.postgresql:postgresql")
