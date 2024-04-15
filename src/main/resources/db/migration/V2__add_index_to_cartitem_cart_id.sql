@@ -1,0 +1,1 @@
+CREATE INDEX idx__cart_item__cart_id ON cart_item (cart_id);
